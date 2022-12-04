@@ -1,6 +1,6 @@
 {
   "name": "@amaic/dijs-abstractions",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Interfaces and types for package @amaic/dijs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
