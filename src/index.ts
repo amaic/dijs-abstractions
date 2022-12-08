@@ -2,8 +2,10 @@ import IServiceCollection, { IServiceCollectionIdentifier, IsIServiceCollection 
 import IServiceProvider, { IServiceProviderIdentifier, IsIServiceProvider } from "./interfaces/IServiceProvider";
 import { ServiceType } from "./types/ServiceType";
 import { ServiceConstructor } from "./types/ServiceConstructor";
+import { ServiceRegistrationMode } from "./types/ServiceRegistrationMode";
 
 export { IServiceCollection, IServiceCollectionIdentifier, IsIServiceCollection };
 export { IServiceProvider, IServiceProviderIdentifier, IsIServiceProvider };
 export { ServiceType };
 export { ServiceConstructor };
+export { ServiceRegistrationMode };

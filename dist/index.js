@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ServiceType = exports.IsIServiceProvider = exports.IServiceProviderIdentifier = exports.IsIServiceCollection = exports.IServiceCollectionIdentifier = void 0;
+exports.ServiceRegistrationMode = exports.ServiceType = exports.IsIServiceProvider = exports.IServiceProviderIdentifier = exports.IsIServiceCollection = exports.IServiceCollectionIdentifier = void 0;
 const IServiceCollection_1 = require("./interfaces/IServiceCollection");
 Object.defineProperty(exports, "IServiceCollectionIdentifier", { enumerable: true, get: function () { return IServiceCollection_1.IServiceCollectionIdentifier; } });
 Object.defineProperty(exports, "IsIServiceCollection", { enumerable: true, get: function () { return IServiceCollection_1.IsIServiceCollection; } });
@@ -9,4 +9,6 @@ Object.defineProperty(exports, "IServiceProviderIdentifier", { enumerable: true,
 Object.defineProperty(exports, "IsIServiceProvider", { enumerable: true, get: function () { return IServiceProvider_1.IsIServiceProvider; } });
 const ServiceType_1 = require("./types/ServiceType");
 Object.defineProperty(exports, "ServiceType", { enumerable: true, get: function () { return ServiceType_1.ServiceType; } });
+const ServiceRegistrationMode_1 = require("./types/ServiceRegistrationMode");
+Object.defineProperty(exports, "ServiceRegistrationMode", { enumerable: true, get: function () { return ServiceRegistrationMode_1.ServiceRegistrationMode; } });
 //# sourceMappingURL=index.js.map

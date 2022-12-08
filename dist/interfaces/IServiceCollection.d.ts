@@ -31,8 +31,8 @@ export default interface IServiceCollection {
      * @param constructor optional constructor function; delivers type of service class, service provider and if named requested name
      */
     RegisterClass<INTERFACE, CLASSTYPE extends ServiceConstructor<INTERFACE>>(registrationMode: ServiceRegistrationMode, serviceType: ServiceType, interfaceIdentifier: symbol, classType: CLASSTYPE, constructor?: (classType: CLASSTYPE, serviceProvider: IServiceProvider, name?: string) => INTERFACE): void;
-    /** Get main scope service provider. */
-    GetServiceProvider(): IServiceProvider;
+    /** Create main scope service provider. */
+    CreateServiceProvider(): IServiceProvider;
 }
 /** Unique IServiceCollection identifier. */
 export declare const IServiceCollectionIdentifier: unique symbol;

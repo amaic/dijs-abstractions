@@ -56,8 +56,8 @@ export default interface IServiceCollection
             constructor?: (classType: CLASSTYPE, serviceProvider: IServiceProvider, name?: string) => INTERFACE
         ): void;
 
-    /** Get main scope service provider. */
-    GetServiceProvider(): IServiceProvider;
+    /** Create main scope service provider. */
+    CreateServiceProvider(): IServiceProvider;
 }
 
 /** Unique IServiceCollection identifier. */
