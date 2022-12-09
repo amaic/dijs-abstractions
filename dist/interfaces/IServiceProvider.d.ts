@@ -58,7 +58,7 @@ export default interface IServiceProvider {
      * Throws exception if service does not exist.
      * @param serviceIdentifier unique service interface identifier
      * @param name optional name if named
-     * @returns instances of service
+     * @returns all instances of service
      */
     GetRequiredServices(serviceIdentifier: symbol, name?: string): any[];
     /**
@@ -67,7 +67,7 @@ export default interface IServiceProvider {
      * Throws exception if service does not exist.
      * @param serviceIdentifier unique service interface identifier
      * @param name optional name if named
-     * @returns instances of service
+     * @returns all instances of service
      */
     GetRequiredServices<INTERFACE>(serviceIdentifier: symbol, name?: string): INTERFACE[];
     /** Create new service provider scope. */
